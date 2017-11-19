@@ -7,7 +7,7 @@ alias gl="git log"
 alias csc207="cd ~/WorkSpace/csc207/group_0485"
 alias pyvenv="source bin/activate"
 alias djrun="python manage.py runserver"
-
+alias chrome="google-chrome"
 cdl() { cd $@ && ls ; }
 cd-up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 
