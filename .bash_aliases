@@ -16,3 +16,6 @@ alias foodpolls="cd ~/PyEnv && pyvenv && cd foodpolls"
 alias "c."="cd-up"
 alias pycharm="/opt/pycharm-2017.3/bin/pycharm.sh"
 alias javawork="cd ~/WorkSpace/Java"
+compileC() {
+    gcc -Wall -std=gnu99 -g -o $1 $1.c
+}
