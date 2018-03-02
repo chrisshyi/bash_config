@@ -19,3 +19,4 @@ alias javawork="cd ~/WorkSpace/Java"
 compC() {
     gcc -Wall -std=gnu99 -g -o $1 $1.c
 }
+alias update="sudo apt update && sudo apt upgrade"
