@@ -12,6 +12,7 @@ alias chrome="google-chrome"
 cdl() { cd $@ && ls ; }
 cd-up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 alias foodpolls="cd ~/PyEnv && pyvenv && cd foodpolls"
+alias djrest="cd ~/WorkSpace/Python/djangoREST"
 
 alias "c."="cd-up"
 alias pycharm="/opt/pycharm-2017.3/bin/pycharm.sh"
