@@ -1,5 +1,6 @@
 alias gplom="git pull origin master"
 alias gpsom="git push origin master"
+alias gpmfm="git push my-fork master"
 alias gaa="git add -A"
 alias gsta="git status"
 alias gcm="git commit"
