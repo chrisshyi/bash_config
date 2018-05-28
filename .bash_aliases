@@ -6,7 +6,10 @@ alias gaa="git add -A"
 alias gsta="git status"
 alias gcm="git commit"
 alias gl="git log"
-alias csc207="cd ~/WorkSpace/csc207/group_0485/phase2"
+py3.6() {
+    python3.6 $1
+}
+alias aps106="cd ~/Dropbox/Summer2018/APS106"
 alias csc209="cd ~/WorkSpace/csc209/shyichin"
 alias pyvenv="source bin/activate"
 alias djrun="python manage.py runserver"
