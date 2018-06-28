@@ -8,7 +8,7 @@ alias gsta="git status"
 alias gcm="git commit"
 alias gl="git log"
 
-alias spotvis="cd .virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
+alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
 py3.6() {
     python3.6 $1
 }
