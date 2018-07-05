@@ -8,7 +8,7 @@ alias gsta="git status"
 alias gcm="git commit"
 alias gl="git log"
 
-alias spotvis="cd .virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
+alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
 py3.6() {
     python3.6 $1
 }
@@ -19,7 +19,8 @@ alias djrun="python manage.py runserver"
 alias chrome="google-chrome"
 cdl() { cd $@ && ls ; }
 cd-up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
-alias foodpolls="cd ~/PyEnv && pyvenv && cd foodpolls"
+alias foodpolls="cd /home/chris/.virtualenvs/foodpolls && pyvenv && cd foodpolls"
+
 alias djrest="cd ~/WorkSpace/Python/djangoREST"
 
 alias "c."="cd-up"
