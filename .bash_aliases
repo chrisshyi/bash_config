@@ -18,7 +18,7 @@ alias pyvenv="source bin/activate"
 alias djrun="python manage.py runserver"
 alias chrome="google-chrome"
 cdl() { cd $@ && ls ; }
-cd-up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
+up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 alias foodpolls="cd /home/chris/.virtualenvs/foodpolls && pyvenv && cd foodpolls"
 
 alias djrest="cd ~/WorkSpace/Python/djangoREST"
