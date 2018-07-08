@@ -23,7 +23,7 @@ alias foodpolls="cd /home/chris/.virtualenvs/foodpolls && pyvenv && cd foodpolls
 
 alias djrest="cd ~/WorkSpace/Python/djangoREST"
 
-alias "c."="cd-up"
+alias "c."="up"
 alias javawork="cd ~/WorkSpace/Java"
 compC() {
     gcc -Wall -std=gnu99 -g -o $1 $1.c
