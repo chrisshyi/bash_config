@@ -9,7 +9,7 @@ alias gcm="git commit"
 alias gl="git log"
 
 alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
-py3.6() {
+py36() {
     python3.6 $1
 }
 alias aps106="cd ~/Dropbox/Summer2018/APS106"
