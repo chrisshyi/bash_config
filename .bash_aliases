@@ -12,6 +12,7 @@ alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
 py36() {
     python3.6 $1
 }
+alias appe="cd ~/.virtualenvs/rate-my-appe"
 alias aps106="cd ~/Dropbox/Summer2018/APS106"
 alias csc209="cd ~/WorkSpace/csc209/shyichin"
 alias pyvenv="source bin/activate"
