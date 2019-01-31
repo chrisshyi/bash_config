@@ -13,8 +13,8 @@ py36() {
     python3.6 $1
 }
 alias appe="cd ~/.virtualenvs/rate-my-appe && pyvenv && cd appe"
-alias aps106="cd ~/Dropbox/Summer2018/APS106"
-alias csc209="cd ~/WorkSpace/csc209/shyichin"
+alias aps106="cd ~/Dropbox/School/Winter2019/APS106"
+alias ece344="cd /home/chris/workspace/c/ece344labs"
 alias pyvenv="source bin/activate"
 alias djrun="python manage.py runserver"
 alias chrome="google-chrome"
@@ -30,3 +30,4 @@ compC() {
     gcc -Wall -std=gnu99 -g -o $1 $1.c
 }
 alias update="sudo apt update && sudo apt upgrade"
+alias jupyter="/home/chris/anaconda3/bin/jupyter"
