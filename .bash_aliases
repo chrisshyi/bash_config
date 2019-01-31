@@ -7,6 +7,7 @@ alias gaa="git add -A"
 alias gsta="git status"
 alias gcm="git commit"
 alias gl="git log"
+alias gbr="git branch"
 
 alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
 py36() {
