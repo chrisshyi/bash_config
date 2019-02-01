@@ -1,4 +1,4 @@
-# Git related
+####### Git related
 alias gplom="git pull origin master"
 alias gpsom="git push origin master"
 alias gplmfm="git pull my-fork master"
@@ -8,6 +8,9 @@ alias gsta="git status"
 alias gcm="git commit"
 alias gl="git log"
 alias gbr="git branch"
+alias gpsot="git push origin testing"
+alias gplot="git pull origin testing"
+######## end of Git related
 
 alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
 py36() {
