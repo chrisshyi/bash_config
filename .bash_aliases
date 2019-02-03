@@ -8,6 +8,9 @@ alias gsta="git status"
 alias gcm="git commit"
 alias gl="git log"
 alias gbr="git branch"
+gchk() {
+    git checkout $1
+}
 alias gpsot="git push origin testing"
 alias gplot="git pull origin testing"
 ######## end of Git related
@@ -19,6 +22,7 @@ py36() {
 alias appe="cd ~/.virtualenvs/rate-my-appe && pyvenv && cd appe"
 alias aps106="cd ~/Dropbox/School/Winter2019/APS106"
 alias ece344="cd /home/chris/workspace/c/ece344labs"
+alias ecelab="ssh shyichin@ug151.eecg.toronto.edu"
 alias pyvenv="source bin/activate"
 alias djrun="python manage.py runserver"
 alias chrome="google-chrome"
