@@ -13,6 +13,8 @@ gchk() {
 }
 alias gpsot="git push origin testing"
 alias gplot="git pull origin testing"
+alias gpsod="git push origin development"
+alias gplod="git pull origin development"
 ######## end of Git related
 
 alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
