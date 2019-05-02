@@ -41,3 +41,4 @@ compC() {
 }
 alias update="sudo apt update && sudo apt upgrade"
 alias jupyter="/home/chris/anaconda3/bin/jupyter"
+alias sml="rlwrap sml"
