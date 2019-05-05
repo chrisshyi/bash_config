@@ -39,7 +39,7 @@ alias javawork="cd ~/WorkSpace/Java"
 compC() {
     gcc -Wall -std=gnu99 -g -o $1 $1.c
 }
-comp++() {
+compcpp() {
     g++ -std=c++11 -Wall -g -o $1 $1.cpp
 }
 alias update="sudo apt update && sudo apt upgrade"
