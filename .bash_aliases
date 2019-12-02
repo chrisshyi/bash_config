@@ -45,3 +45,4 @@ compcpp() {
 alias update="sudo apt update && sudo apt upgrade"
 alias jupyter="/home/chris/anaconda3/bin/jupyter"
 alias sml="rlwrap sml"
+alias py37="/opt/python3.7/bin/python3.7"
