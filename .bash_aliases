@@ -17,22 +17,13 @@ alias gpsod="git push origin development"
 alias gplod="git pull origin development"
 ######## end of Git related
 
-alias spotvis="cd ~/.virtualenvs/spotify-vis && pyvenv && cd spotify-lib-vis"
-py36() {
-    python3.6 $1
-}
 alias appe="cd ~/.virtualenvs/rate-my-appe && pyvenv && cd appe"
-alias aps106="cd ~/Dropbox/School/Winter2019/APS106"
-alias ece344="cd /home/chris/workspace/c/ece344labs"
-alias ecelab="ssh shyichin@ug151.eecg.toronto.edu"
-alias pyvenv="source bin/activate"
 alias djrun="python manage.py runserver"
 alias chrome="google-chrome"
 cdl() { cd $@ && ls ; }
 up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 alias foodpolls="cd /home/chris/.virtualenvs/foodpolls && pyvenv && cd foodpolls"
-
-alias djrest="cd ~/WorkSpace/Python/djangoREST"
+alias disku="du -d 1 -h ."
 
 alias "c."="up"
 alias javawork="cd ~/WorkSpace/Java"
@@ -43,6 +34,5 @@ compcpp() {
     g++ -std=c++11 -Wall -g -o $1 $1.cpp
 }
 alias update="sudo apt update && sudo apt upgrade"
-alias jupyter="/home/chris/anaconda3/bin/jupyter"
-alias sml="rlwrap sml"
-alias py37="/opt/python3.7/bin/python3.7"
+alias work_env="cd ~/workspace/work_dir && source bin/activate"
+alias actenv="source bin/activate"
