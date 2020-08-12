@@ -14,6 +14,7 @@ gchk() {
 alias gpsot="git push origin testing"
 alias gplot="git pull origin testing"
 alias gpsod="git push origin development"
+alias gpsoh="git push origin HEAD"
 alias gplod="git pull origin development"
 ######## end of Git related
 
@@ -34,5 +35,5 @@ compcpp() {
     g++ -std=c++11 -Wall -g -o $1 $1.cpp
 }
 alias update="sudo apt update && sudo apt upgrade"
-alias work_env="cd ~/workspace/work_dir && source bin/activate"
+alias work_env="cd ~/workspace/work_dir && source bin/activate && cd ngChat/ngchat_api"
 alias actenv="source bin/activate"
