@@ -18,7 +18,9 @@ alias djrun="python manage.py runserver"
 cdl() { cd $@ && ls ; }
 up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 alias foodpolls="cd /home/chris/.virtualenvs/foodpolls && pyvenv && cd foodpolls"
-alias disku="du -d 1 -ah ."
+function disku() {
+   du -d 1 -ah $1
+}
 alias "c."="up"
 compC() {
     gcc -Wall -std=gnu99 -g -o $1 $1.c
