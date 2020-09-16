@@ -7,6 +7,7 @@ alias gsta="git status"
 alias gcm="git commit"
 alias gl="git log"
 alias gbr="git branch"
+alias gsw="git switch"
 gchk() {
     git checkout $1
 }
