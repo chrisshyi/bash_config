@@ -20,7 +20,7 @@ cdl() { cd $@ && ls ; }
 up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 alias foodpolls="cd /home/chris/.virtualenvs/foodpolls && pyvenv && cd foodpolls"
 function disku() {
-    local dir="${1:.}"
+    local dir=`realpath $1`
     du -d 1 -ah $dir
 }
 alias "c."="up"
