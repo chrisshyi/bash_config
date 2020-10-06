@@ -31,6 +31,6 @@ compcpp() {
     g++ -std=c++11 -Wall -g -o $1 $1.cpp
 }
 alias update="sudo apt update && sudo apt upgrade"
-alias workenv="cd ~/workspace/work_dir && source bin/activate && cd ngChat/ngchat_api/backend && source setup.sh"
+alias workenv="cd ~/workspace/work_dir && source bin/activate && cd ngChat/ngchat_api/backend && source setup.sh && cd app"
 alias actenv="source bin/activate"
 alias uvirun="cd /home/chris/workspace/work_dir/ngChat/ngchat_api/backend/app && uvicorn main:app --reload"
