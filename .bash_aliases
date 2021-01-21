@@ -25,3 +25,5 @@ alias update="sudo apt update && sudo apt upgrade"
 alias workenv="cd ~/workspace/work_dir && source bin/activate && cd ngChat/ngchat_api/backend && source setup.sh && cd app"
 alias actenv="source bin/activate"
 alias df="df -t ext4 -h"
+
+alias go13="go1.13.15"
