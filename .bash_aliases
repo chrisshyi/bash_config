@@ -1,7 +1,9 @@
 ####### Git related
 alias gplom="git pull origin master"
 alias gpl="git pull"
+alias gps="git push"
 alias gpsom="git push origin master"
+alias grem="git remote -v"
 alias gaa="git add -A"
 alias gsta="git status"
 alias gcm="git commit -S"
