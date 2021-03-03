@@ -29,3 +29,4 @@ alias actenv="source bin/activate"
 alias df="df -t ext4 -h"
 
 alias go13="go1.13.15"
+alias sshut="sudo shutdown now"
