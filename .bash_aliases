@@ -20,7 +20,7 @@ alias appe="cd ~/.virtualenvs/rate-my-appe && pyvenv && cd appe"
 up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 function disku() {
     local dir=`realpath $1`
-    du -d 1 -ah $dir
+    du -d 1 -ah $dir | sort -k 1 -h
 }
 alias "c."="up"
 alias update="sudo apt update && sudo apt upgrade"
