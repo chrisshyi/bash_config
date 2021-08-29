@@ -7,16 +7,16 @@ alias grem="git remote -v"
 alias gaa="git add -A"
 alias gsta="git status"
 alias gcm="git commit -S"
-alias gl="git log"
+alias gl="git log --graph"
 alias gbr="git branch"
 alias gsw="git switch"
+alias grb="git rebase"
 gchk() {
     git checkout $1
 }
 alias gpsoh="git push origin HEAD"
 ######## end of Git related
 
-alias appe="cd ~/.virtualenvs/rate-my-appe && pyvenv && cd appe"
 up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
 function disku() {
     local dir=`realpath $1`
@@ -24,7 +24,6 @@ function disku() {
 }
 alias "c."="up"
 alias update="sudo apt update && sudo apt upgrade"
-alias workenv="cd ~/workspace/work_dir && source bin/activate && cd ngChat/ngchat_api/backend && source setup.sh && cd app"
 alias actenv="source bin/activate"
 alias df="df -t ext4 -h"
 
