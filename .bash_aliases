@@ -29,6 +29,9 @@ alias df="df -t ext4 -h"
 
 alias sshut="sudo shutdown now"
 gbrd () {
-        git branch -d $1
-        git push -d origin $1
+    for br in "$@"
+    do
+        gbr -d "@br"
+        git push -d origin "@br"
+    done
 }
