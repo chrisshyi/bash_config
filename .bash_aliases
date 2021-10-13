@@ -27,5 +27,8 @@ alias update="sudo apt update && sudo apt upgrade"
 alias actenv="source bin/activate"
 alias df="df -t ext4 -h"
 
-alias go13="go1.13.15"
 alias sshut="sudo shutdown now"
+gbrd () {
+        git branch -d $1
+        git push -d origin $1
+}
