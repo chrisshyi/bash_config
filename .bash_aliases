@@ -8,13 +8,16 @@ alias gaa="git add -A"
 alias gsta="git status"
 alias gcm="git commit -S"
 alias gl="git log --graph --oneline --decorate"
-alias gbr="git branch"
+alias gbr="git branch | cat"
 alias gsw="git switch"
 alias grb="git rebase"
 gchk() {
     git checkout $1
 }
 alias gpsoh="git push origin HEAD"
+gtp() {
+    git tag $1 && git push origin $1
+}
 ######## end of Git related
 
 up() { cd $(printf "%0.s../" $(seq 1 $1)) ; }
